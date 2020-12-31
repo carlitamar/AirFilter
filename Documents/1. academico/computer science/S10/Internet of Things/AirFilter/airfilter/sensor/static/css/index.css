@@ -1,0 +1,44 @@
+h1{
+  font-size: 80px;
+  margin: 0px;
+  padding: 70px;
+  background-color: lightblue;
+}
+
+h4{
+  margin: 0px;
+  padding: 70px;
+  font-size: 60px;
+}
+
+span {
+  font-size: 30px;
+}
+
+p {
+  margin: 20px;
+  margin-left:200px;
+  width: 300px;
+  padding: 10px;
+}
+
+div {
+  display: inline-flex;
+  width: 100%;
+}
+
+span#spanNumM, span#spanNumB, span#spanNumN, span#spanNumP, span#spanNumMP{
+  font-weight: bold;
+}
+
+button {
+  font-size: 20px;
+  margin-left: 285px;
+  margin-right: 140px;
+}
+
+.purple {background-color:purple}
+.red {background-color:red}
+.orange {background-color:orange}
+.yellow {background-color:yellow}
+.green {background-color:green}

@@ -1,0 +1,63 @@
+ {% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type= "text/css" href="{% static 'sensor/css/index.css' %}">
+    <meta charset="UTF-8">
+    <title>AQI</title>
+   <h1>Calidad de Aire  Interior/Exterior</h1>
+</head>
+<body>
+
+   <div class="yellow">
+      <h4>AQI: Indice de Calidad del Aire</h4>
+   </div>
+   <div>
+      <p id="air1" class="{{ color_lc }}">
+         <strong style="font-size: 30px">OFICINA LAS CONDES</strong><br>
+         <span style="font-size: 30px">exterior</span><br>
+         <span style="font-size: 30px">AQI: {{ lascondes }}</span><br>
+
+         <span style="font-size: 30px">interior</span><br>
+         <span style="font-size: 30px">AQI: {{ r1_lc }} - {{ r2_lc }}</span><br>
+      </p>  
+      <p id="air2" class="{{ color_va }}">
+         <strong style="font-size: 30px">OFICINA VALDIVIA</strong> <br>
+         <span style="font-size: 30px">exterior</span><br>
+         <span style="font-size: 30px">AQI: {{ valdivia }}</span><br>
+
+         <span style="font-size: 30px">interior</span><br>
+         <span style="font-size: 30px">AQI: {{ r1_va }} - {{ r2_va }}</span><br>
+      </p>
+      <p id="air3" class="{{ color_t }}"> 
+         <strong style="font-size: 30px">OFICINA TEMUCO</strong> <br>
+         <span style="font-size: 30px">exterior</span><br>
+         <span style="font-size: 30px">AQI: {{ temuco }}</span><br>
+
+         <span style="font-size: 30px">interior</span><br>
+         <span style="font-size: 30px">AQI: {{ r1_t }} - {{ r2_t }}</span><br>
+      </p>
+   </div>
+   <div>
+      <p id="air4" class="{{ color_q }}">
+         <strong style="font-size: 30px">OFICINA QUINTERO</strong><br>
+         <span style="font-size: 30px">exterior</span><br>
+         <span style="font-size: 30px">AQI: {{ quintero }}</span><br>
+
+         <span style="font-size: 30px">interior</span><br>
+         <span style="font-size: 30px">AQI: {{ r1_q }} - {{ r2_q }}</span><br>
+         <span id="state"></span><br>
+      </p>
+      <p id="air5" class="{{ color_vi }}">
+         <strong style="font-size: 30px">OFICINA VIÑA DEL MAR</strong> <br>
+         <span style="font-size: 30px">exterior</span><br>
+         <span style="font-size: 30px">AQI: {{vina }}</span> <br>
+
+         <span style="font-size: 30px">interior</span><br>
+         <span style="font-size: 30px">AQI: {{ r1_v }} - {{ r2_v }}</span> <br>
+      </p>
+   </div>
+   <img src="{% static 'sensor/img/rangos.jpeg' %}" alt="Rangos AQI">
+</body>
+</html>

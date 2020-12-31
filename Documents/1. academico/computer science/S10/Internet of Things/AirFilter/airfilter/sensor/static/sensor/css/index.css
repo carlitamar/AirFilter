@@ -1,0 +1,41 @@
+/* body {
+    background-color: ;
+  } */
+/* div#details-aqi-popup-0 {
+    width: 300px!important;
+} */
+h1{
+  font-size: 80px;
+  margin: 0px;
+  padding: 70px;
+  background-color: lightblue;
+
+}
+
+span {
+  font-size: 30px;
+}
+
+p {
+  margin: 20px;
+  margin-left:200px;
+  width: 300px;
+  padding: 10px;
+}
+
+div {
+  display: inline-flex;
+  width: 100%;
+}
+
+button {
+  font-size: 20px;
+  margin-left: 285px;
+  margin-right: 140px;
+}
+
+.purple {background-color:purple}
+.red {background-color:red}
+.orange {background-color:orange}
+.yellow {background-color:yellow}
+.green {background-color:green}
