@@ -1,4 +1,4 @@
-#IoT Controlador de Calidad del Aire (2020)
+# IoT Controlador de Calidad del Aire (2020)
 
 Se crearon dispositivos IoT virtuales vía AWS (AWS IoT & DynamoDB), conectados a la [API de IQAir AirVisual](https://www.iqair.com/air-pollution-data-api), que detectan la calidad del aire en muchos lugares del mundo. Para esto, se ocupó DynamoDB para almacenar los datos, para luego llamarlos y desplegar la calidad del aire de diferentes oficinas de una empresa a través de una Web App. El objetivo era crear un sistema que prende los filtros de aquellas oficinas automáticamente, dependiendo del índice AQI. Puedes ver la presentación final [acá](https://docs.google.com/presentation/d/1QkE1JyUtCxPunqM987NuLIUPyzu96ILePvg_IU7XCxw/edit#slide=id.g788dc98df2_0_81).
  
